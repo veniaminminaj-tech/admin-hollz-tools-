@@ -1,0 +1,13 @@
+{
+  "type": "doorscrucifix:jail",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "lakes": false,
+      "features": false,
+      "structures": { "structures": {} },
+      "layers": [ { "block": "minecraft:air", "height": 1 } ]
+    }
+  }
+}

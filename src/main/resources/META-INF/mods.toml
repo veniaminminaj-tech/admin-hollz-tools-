@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="doorscrucifix"
+version="1.0.0"
+displayName="Admin Crucifix"
+description='''
+An operator-only crucifix inspired by DOORS. Hold right-click to banish nearby mobs; sneak + right-click a player to ban them.
+'''
+
+[[dependencies.doorscrucifix]]
+modId="forge"
+mandatory=true
+versionRange="[36,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.doorscrucifix]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"
