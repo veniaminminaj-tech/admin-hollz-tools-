@@ -27,7 +27,7 @@ jobs:
         run: gradle build --stacktrace
 
       - name: Upload JAR
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: admin-crucifix-1.12.2-jar
           path: build/libs/*.jar
