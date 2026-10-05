@@ -1,4 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": { "layer0": "doorscrucifix:item/admin_crucifix_charging" }
-}
